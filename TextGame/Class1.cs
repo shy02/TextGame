@@ -38,6 +38,7 @@ namespace TextGame
                         break;
                     case 2:
                         menu_num = 5;
+                        introduce myself = new introduce();
                         break;
                 }
 
@@ -314,5 +315,15 @@ namespace TextGame
             }
         }
     }
-     
+    class introduce
+    {
+        public introduce()
+        {
+            Console.Clear();
+            Console.Write("안녕하세요! 제작자 sky입니다.\n취업동아리에서 연습으로 이 게임을 개인으로 만들게 되었습니다.\n스토리도 문제들도 병맛이지만 재밌게 봐주세요\n\n깃 아이디 : shy02 \n이메일 : shy43002@gmail.com");
+            Console.Write("\n\n메인으로 가고 싶다면 ENTER를 눌러주세요...");
+            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+            Console.Clear();
+        }
+    } 
 }
