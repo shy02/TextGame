@@ -40,11 +40,7 @@ namespace TextGame
                         menu_num = 5;
                         introduce myself = new introduce();
                         break;
-                }
-
-            }
-        }
-    }
+                }}}}
 
     class Player
     {
